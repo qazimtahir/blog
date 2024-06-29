@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const HeroSection = () => {
@@ -8,15 +9,15 @@ const HeroSection = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             How does Partial
             <br className="hidden lg:inline-block" />
-            Prerendering work?
+            Pre rendering work?
           </h1>
           <p className="mb-8 leading-relaxed text-justify">
-            Partial Prerendering uses React's Suspense (which you learned about
+            Partial Pre rendering uses React's Suspense (which you learned about
             in the previous chapter) to defer rendering parts of your
             application until some condition is met (e.g. data is loaded). The
             Suspense fallback is embedded into the initial HTML file along with
             the static content. At build time (or during revalidation), the
-            static content is prerendered to create a static shell. The
+            static content is pre rendered to create a static shell. The
             rendering of dynamic content is postponed until the user requests
             the route. Wrapping a component in Suspense doesn't make the
             component itself dynamic, but rather Suspense is used as a boundary

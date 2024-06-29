@@ -11,13 +11,13 @@ const About = () => {
           <div className="md:w-3/5 md:pl-6">
             <p className="leading-relaxed text-base">
               I am is software developer. I can develop a website for you.
-              <ul>
-                <li>Typescript</li>
-                <li>Next JS</li>
-                <li>React JS</li>
-                <li>Tailwind CSS</li>
-              </ul>
             </p>
+            <ul>
+              <li>Typescript</li>
+              <li>Next JS</li>
+              <li>React JS</li>
+              <li>Tailwind CSS</li>
+            </ul>
           </div>
         </div>
       </section>
